@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/listitembgd"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:padding="5dp" >
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/slopeIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/imgDesc"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_slope" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_weight="80"
+        android:gravity="left"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/titleTxt"
+            style="@style/listParentNameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/lenTxt"
+            style="@style/listParentAddrText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/difTxt"
+            style="@style/listParentAddrText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

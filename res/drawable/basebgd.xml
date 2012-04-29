@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <shape>
+            <solid android:color="#ffffff" />
+
+            <corners android:radius="0dp" />
+        </shape>
+    </item>
+    <item>
+        <bitmap
+            android:dither="true"
+            android:filter="true"
+            android:src="@drawable/doted"
+            android:tileMode="repeat" />
+    </item>
+
+</layer-list>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/listparentbgd"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/nameText"
+        style="@style/listParentNameText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/addrText"
+        style="@style/listParentAddrText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="5dp"
+        android:paddingLeft="40dp" >
+    </TextView>
+
+</LinearLayout>

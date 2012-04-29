@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/logobgd"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginLeft="-5dp"
+        android:layout_weight="90"
+        android:contentDescription="@string/imgDesc"
+        android:src="@drawable/logo_large" />
+
+    <Button
+        android:id="@+id/buttonAuthenticateFB"
+        style="@style/menuTextLarge"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_weight="10"
+        android:background="@drawable/facebookbgd"
+        android:drawableLeft="@drawable/facebook_icon"
+        android:padding="5dp"
+        android:text="@string/facebookBtnTitle" />
+
+</LinearLayout>

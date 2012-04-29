@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="authActivityAuthWasCancelled">Авторизация была отменена!</string>
+    <string name="authActivityYouAreAlreadyAuthorized">Вы уже авторизованы!</string>
+    <string name="authActivityAuthSuccessfully">Вы успешно авторизованы!</string>
+    <string name="authActivityRequestParamsFailed">Невозможно получить параметры пользователя с сервера SWM!</string>
+    <string name="authActivityGetFBInfoFailed">Ошибка получения информации о пользователе Facebook!</string>
+    <string name="authActivityUnknownAuthError">Ошибка авторизации - не совпадают данные id пользователя!</string>
+    <string name="authActivityProgressAuthenticcate">Авторизация&#8230;</string>
+    
+</resources>

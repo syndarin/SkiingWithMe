@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@android:id/empty"
+        style="@style/infoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="8dp"
+        android:text="@string/emptyList" />
+
+    <ExpandableListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="#FFFFFF"
+        android:groupIndicator="@drawable/listindicator_selector"
+        android:scrollbarThumbVertical="@drawable/scroll" />
+
+</LinearLayout>
